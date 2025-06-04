@@ -1,0 +1,75 @@
+body {
+  background: "https://iy.kommersant.ru/Issues.photo/LifeStyle_Online/2022/04/04/KLS_001364_02579_1_t222_111319.jpg";
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 255, 255, 0.3);
+  border-radius: 15px;
+  padding: 2rem;
+  box-shadow: 0 0 20px rgba(0, 255, 255, 0.2);
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(0, 255, 255, 0.3);
+}
+
+input[type="text"] {
+  width: 90%;
+  padding: 1rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  transition: 0.3s ease;
+}
+
+input[type="text"]:focus {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+button {
+  background: linear-gradient(to right, #00eaff, #1c5faf);
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+button:hover {
+  transform: scale(1.02);
+  background: linear-gradient(to right, #00caff, #2a7fcf);
+}
+
+.response {
+  margin-top: 1.5rem;
+  padding: 1rem;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 8px;
+  min-height: 60px;
+  font-style: italic;
+  line-height: 1.5;
+}

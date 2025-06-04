@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Ресторанный гид</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+  
+<body BACKGROUND="KLS_001364_02579_1_t222_111319.jpg">
+  <div class="container">
+    <h1>Куда идем сегодня?</h1>
+    <input type="text" id="questionInput" placeholder="Хочу найти место для завтрака ...">
+    <button onclick="askAI()">Найти!</button>
+    <div id="response" class="response"></div>
+  </div>
+  
+  <!-- Подключение marked -->
+  <script src="marked.min.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>
